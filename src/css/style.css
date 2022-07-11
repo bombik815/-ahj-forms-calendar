@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#conteiner {
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+.checkbox {
+    width: 350px;
+    padding: 10px 10px 5px 10px;
+}
+
+.date-check {
+    width: 24px;
+    height: 24px;
+    padding-left: 20px;
+}
+
+.date {
+    display: flex;
+    padding: 5px 10px 10px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date-input-there {
+    width: 99%;
+}
+
+.input-there {
+    position: relative;
+    width: inherit;
+}
+
+.input-back {
+    position: relative;
+
+}
+
+
+.date-choice {
+    position: absolute;
+    flex-direction: column;
+    width: 157px;
+    background-color: white;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.date-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    border-bottom: 1px solid #00000040;
+    background-color: aliceblue;
+}
+
+.date-header-title {
+    font-size: small;
+    font-weight: 600;
+}
+
+.date-prev {
+    background-image: url(../img/left-arrow.png);
+    width: 16px;
+    height: 16px;
+}
+
+.date-prev-z {
+    z-index: -1;
+}
+
+.date-next {
+    background-image: url(../img/right-arrow.png);
+    width: 16px;
+    height: 16px;
+}
+
+/* table */
+
+.calendar {
+    font-size: small;
+}
+
+tbody > tr > th {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.bold-date {
+    color: black;
+    cursor: pointer;
+}
+
+.current-date {
+    background-color: cadetblue;
+}
+
+.calendar-days {
+    cursor: not-allowed;
+    color: rgba(0, 0, 0, 0.342);
+}
+
+.bold-date:hover {
+    background-color: cadetblue;
+}
